@@ -101,9 +101,9 @@ def plot_value_array(i, predictions_array, true_label):
   predicted_label = np.argmax(predictions_array)
 
   thisplot[predicted_label].set_color('red')
-  thisplot[true_labeli.set_color('blue')
+  thisplot[true_label].set_color('blue')
 
-i=0
+i = 0
 for i in range(10):
     plt.figure(figsize=(6,3))
     plt.subplot(1,2,1)
